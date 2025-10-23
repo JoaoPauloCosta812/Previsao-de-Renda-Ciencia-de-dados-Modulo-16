@@ -1,9 +1,12 @@
 import pandas as pd
 import matplotlib.pyplot as plt
+import seaborn as sns
 import streamlit as st
 import plotly.express as px
 import numpy as np
 import plotly.graph_objects as go
+
+sns.set(context='talk', style='ticks')
 
 st.set_page_config(
      page_title="Previsão de Renda",
@@ -114,3 +117,4 @@ fig = px.bar(
 fig.update_layout(title=f'Média da Renda por {variavel.capitalize()}', showlegend=False)
 
 st.plotly_chart(fig)
+
