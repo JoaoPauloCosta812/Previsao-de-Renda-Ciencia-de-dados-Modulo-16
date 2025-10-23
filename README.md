@@ -6,5 +6,6 @@
 - Github com o projeto
 - Vídeo mostrando o streamlit:
 
-Uploading streamlit-projeto_2-2025-10-23-17-10-40.mov…
+https://github.com/user-attachments/assets/dd7bf73c-d153-45f3-9639-baef1c09fa44
+
 
